@@ -1,7 +1,16 @@
-MOSFET Circuit summary
-Rd = 3000
-Rs = 5000
-Vdd = 5
-Vds = 0
-Vgs = 1
-Vth = 0.4
+MOSFET Circuit Summary for 2N7000
+Av = -0.0586142
+Id = 1.19956e-005
+Rd = 2200
+Rout = 2198.84
+Rs = -1
+Rs (calc) = 583547
+Vd = 9.97361
+Vdd = 10
+Vds (est) = 9.978
+Vds (input) = -1
+Vgs = 3
+Vs = 7
+Vth = 2.1
+gm = 2.66569e-005
+ro = 4.1682e+006

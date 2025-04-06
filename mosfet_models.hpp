@@ -1,6 +1,7 @@
 #pragma once
 
 #include <string>
+#include <map>
 
 namespace MosfetLib {
 
@@ -35,4 +36,10 @@ const Mosfet MOSFET_HV_FAST = {
     0.5
 };
 
-}
+// ✅ 인덱스로 접근할 수 있도록 map 생성
+const std::map<int, Mosfet> MOSFET_MODELS = {
+    {0, MOSFET_2N7000},
+    {1, MOSFET_HV_FAST}
+};
+
+}  // namespace MosfetLib
