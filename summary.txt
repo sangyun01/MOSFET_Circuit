@@ -1,0 +1,7 @@
+MOSFET Circuit summary
+Rd = 3000
+Rs = 5000
+Vdd = 5
+Vds = 0
+Vgs = 1
+Vth = 0.4
